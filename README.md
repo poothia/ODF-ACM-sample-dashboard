@@ -139,6 +139,8 @@ data:
       - node_disk_written_bytes_total
       - node_disk_read_time_seconds_total
       - node_disk_write_time_seconds_total
+      - kubelet_volume_stats_used_bytes
+      - kubelet_volume_stats_capacity_bytes
 EOF
 oc apply -f openshift-monitoring-observability-configmap.yaml
 ```
