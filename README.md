@@ -142,7 +142,9 @@ data:
 EOF
 oc apply -f openshift-monitoring-observability-configmap.yaml
 ```
-
+4. Verify the metrics are being Populated in the dashboard
+   
+![Dashboard](/assets/dashboard.gif)
 ## References
 [1] <https://docs.redhat.com/en/documentation/red_hat_advanced_cluster_management_for_kubernetes/2.16/html-single/observability/index#setting-up-grafana-developer-instance>  
 [2] <https://github.com/redhat-performance/odf-grafana>
